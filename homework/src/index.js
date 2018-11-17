@@ -109,6 +109,7 @@ function renderRepositoryContributers(response){
   })
 }
 
+
 function showLoading(option) {
   const loadingIcon = document.querySelector('#loading-icon');
   if (option) {
