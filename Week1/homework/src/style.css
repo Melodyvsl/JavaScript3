@@ -1,0 +1,114 @@
+
+
+html{
+    background-color:lightblue;
+    background-image: url(https://wallpapercave.com/wp/wp3082259.png);
+    margin: 2px;
+    box-sizing:border-box;
+    display: block;
+    background-repeat: inherit;
+    background-position-x: center
+}
+.root{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 1.7em;
+    color: rgb(66, 58, 58);
+}
+
+ #HYF{
+color: rgb(216, 211, 211);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 2.2em;
+    color: rgb(100, 18, 18)
+}
+    
+.header{
+    background-color: rgb(83, 0, 0);
+    padding: 2em;
+    border: 1px solid; 
+    border-color: rgb(161, 47, 56);
+}
+
+select{
+    background-color: white;
+}
+
+/* body {
+    background-color: white;
+    padding: 2em;
+    border: 1px solid; 
+    border-color: rgb(57, 109, 151);
+} */
+  
+.body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1px;
+    grid-gap: 2%;
+  }
+
+#repo_info{
+padding-top: 50px;
+background: rgb(54, 53, 53);
+margin: 10px;
+padding: 10px;
+}
+
+.repoContainer {
+    box-sizing: border-box;;
+     width: 100%;
+     border: 1px solid; 
+     border-color: whitesmoke;
+     padding: 10px;
+     background-color: rgb(243, 231, 231);
+     font-size: 0.5em;
+     margin-top: 2%;
+     
+}
+
+#repo_contributors {
+background: rgb(54, 53, 53);
+margin: 10px;
+padding: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: oblique;
+font-size: .5em;
+}
+
+
+#contributorList{
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.contributorContainer{
+    box-sizing: border-box;;
+    width: 100%;
+    border: 1px solid; 
+    border-color: rgb(243, 231, 231);
+    padding: 10px;
+    background-color: rgb(243, 231, 231);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.contributorContainer h3{
+    background-color: rgb(204, 200, 200);
+    padding: 1%;
+    border-radius: 15px;
+}
+
+
+#repo_contributors img{
+width: 150px;
+height: 150px;
+border-radius: 5%;
+}
